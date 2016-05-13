@@ -7,42 +7,49 @@
  * Text Domain: dd-wp-default-setup
  */
 
+
 function dd_set_defaults () {
-	dd_add_users ($users);
-}
-register_activation_hook (__FILE__, 'dd_set_defaults');
 
+	$dd_settings = dirname(__FILE__) . "/dd-wp-defaults.php";
+	$logname = dirname(__FILE__) . "/setupreport.txt";
 
-// Add users from external file 
-function dd_add_users () {
+	// Start log record
 	date_default_timezone_set("America/New_York");
-	
-	// Create log file
-	$logfile = fopen(dirname(__FILE__) . '/setupreport.txt', 'a');
 	$log = "[" . date('Y-m-d H:i:s') . "]\r\n";
+
+	// Check if settings file exists
+	if (!file_exists ($dd_settings)) {
 	
-        // Check if users file exists
-	if (file_exists (dirname(__FILE__) . '/dd-wp-users.php')) {
-		require_once ('dd_wp_users.php');
-		foreach ($dd_wp_users as $user) {
-			$log .= "Calling addUser function for " . $user['user_login'] . "\r\n";
-			// Call function to add user
-			$log .= addUser ($user, $logfile);
-		}
-	} else { 
-		// Log message if users file does not exist
+		// Log message if setup file does not exist
 		$log .= "Users file does not exist\r\n"; 
+	} else {
+		// Get settings data from file
+		require_once ($dd_settings);
+		
+		// Call setup functions
+		$log .= dd_register_users ($dd_users);
 	}
 	
 	// Write log message to log file
-	$log .= "\r\n";
+	$logfile = fopen($logname, 'a');
 	$log .= "\r\n";
 	fwrite($logfile, $log);
 	fclose($logfile);
 }
+register_activation_hook (__FILE__, 'dd_set_defaults');
+
+// Add users from external file 
+function dd_register_users ($users) {
+	// Add each user in file
+	foreach ($users as $user) {
+		// Call function to add user
+		$registeruserslog .= dd_add_user ($user);
+	}
+	return $registeruserslog;
+}
 
 // Add a user
-function addUser ($userdata, $log) {
+function dd_add_user ($userdata) {
 
 	// Check if user login name already exists, capture 
 	$userid = username_exists ($userdata['user_login']);
@@ -56,19 +63,20 @@ function addUser ($userdata, $log) {
 		
 		// Log results of user update
 		if (!is_wp_error($userid)) {
-    			$log .= "User " . $userid . ": " . $userdata['user_login'] . " updated\r\n";
+    			$userlog .= "User " . $userid . ": " . $userdata['user_login'] . " updated\r\n";
 		} else {
 			$error = $userid->get_error_message();
-			$log .= "Error updating user " . $userdata['user_login'] . ": " . $error . "\r\n";
+			$userlog .= "Error updating user " . $userdata['user_login'] . ": " . $error . "\r\n";
 		}		
 	} else {
 	
 		// Check if email exists for another user
 		$emailexists = email_exists($userdata['user_email']);
 		if ($emailexists) {
-		
+			$userexists = get_userdata($emailexists);
+
 			// Log message that user cannot be added because email is already in use
-			$log .= $userdata['user_login'] . " not added, " . $userdata['user_email'] . " is assigned to " . $exists->login . "\r\n";
+			$userlog .= $userdata['user_login'] . " not added, " . $userdata['user_email'] . " is assigned to " . $userexists->user_login . "\r\n";
 		} else { 
 		
 			// Add user
@@ -76,15 +84,14 @@ function addUser ($userdata, $log) {
 			
 			// Log results of user add
 			if (!is_wp_error($userid)) {
-    				$log .= "User " . $userid . ": " . $userdata['user_login'] . " added\r\n";
+    				$userlog .= "User " . $userid . ": " . $userdata['user_login'] . " added\r\n";
 			} else {
 				$error = $userid->get_error_message();
-				$log .= "Error adding user " . $userdata['user_login'] . ": " . $error . "\r\n";		
+				$userlog .= "Error adding user " . $userdata['user_login'] . ": " . $error . "\r\n";		
 			}
 		}
 	}
-	return $log;
-	
+	return $userlog;
 }
 
 /*
