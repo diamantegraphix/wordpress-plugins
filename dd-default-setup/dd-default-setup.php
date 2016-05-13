@@ -4,70 +4,90 @@
  * Author URL: http://diamantedesign.solutions
  * Description: Diamante default setup for WordPress
  *     Add default users
- * Text Domain: dd-diamante-default-setup
+ * Text Domain: dd-wp-default-setup
  */
 
-function dd_user_setup () {
+function dd_set_defaults () {
+	dd_add_users ($users);
+}
+register_activation_hook (__FILE__, 'dd_set_defaults');
+
+
+// Add users from external file 
+function dd_add_users () {
 	date_default_timezone_set("America/New_York");
+	
+	// Create log file
+	$logfile = fopen(dirname(__FILE__) . '/setupreport.txt', 'a');
 	$log = "[" . date('Y-m-d H:i:s') . "]\r\n";
-	if (file_exists (dirname(__FILE__) . '/dd_wp_users.php')) {
+	
+        // Check if users file exists
+	if (file_exists (dirname(__FILE__) . '/dd-wp-users.php')) {
 		require_once ('dd_wp_users.php');
 		foreach ($dd_wp_users as $user) {
-			$add = addUser ($user);
-			switch ($add) {
-				case 'added':
-					$log .= $user['user_login'] . " added\r\n";
-					break;
-				case 'updated':
-					$log .= $user['user_login'] . " updated\r\n";
-					break;
-				default:
-					$exists = get_user_by('id', $add);
-					$log .= $user['user_login'] . " not added, " . $user['user_email'] . " is assigned to " . $exists->user_login . "\r\n";
-					break;
-
-
-
-			}
+			$log .= "Calling addUser function for " . $user['user_login'] . "\r\n";
+			// Call function to add user
+			$log .= addUser ($user, $logfile);
 		}
-	} else {
+	} else { 
+		// Log message if users file does not exist
 		$log .= "Users file does not exist\r\n"; 
 	}
+	
+	// Write log message to log file
 	$log .= "\r\n";
-	//$log .= "\r\n";
-	$logfile = fopen(dirname(__FILE__) . '/setupreport.txt', 'a');
+	$log .= "\r\n";
 	fwrite($logfile, $log);
 	fclose($logfile);
 }
 
-function addUser ($newuser) {
-	$userid = username_exists ($newuser['user_login']);
-	if (!$userid) {
-		$emailexists = email_exists($newuser['user_email']);
-		if (!$emailexists) {
-			$userid = wp_insert_user ($newuser);
-			wp_new_user_notification($userid, NULL, 'both');
-			return 'added';	
+// Add a user
+function addUser ($userdata, $log) {
+
+	// Check if user login name already exists, capture 
+	$userid = username_exists ($userdata['user_login']);
+	if ($userid) {
+	
+		// Add user ID to userdata array
+		$userdata['ID'] = $userid;
+		
+		// Update user, log results
+		$userid = wp_update_user ($userdata);
+		
+		// Log results of user update
+		if (!is_wp_error($userid)) {
+    			$log .= "User " . $userid . ": " . $userdata['user_login'] . " updated\r\n";
 		} else {
-			return $emailexists; // email exists, cannot add new user  
+			$error = $userid->get_error_message();
+			$log .= "Error updating user " . $userdata['user_login'] . ": " . $error . "\r\n";
+		}		
+	} else {
+	
+		// Check if email exists for another user
+		$emailexists = email_exists($userdata['user_email']);
+		if ($emailexists) {
+		
+			// Log message that user cannot be added because email is already in use
+			$log .= $userdata['user_login'] . " not added, " . $userdata['user_email'] . " is assigned to " . $exists->login . "\r\n";
+		} else { 
+		
+			// Add user
+			$userid = wp_insert_user ($userdata);
+			
+			// Log results of user add
+			if (!is_wp_error($userid)) {
+    				$log .= "User " . $userid . ": " . $userdata['user_login'] . " added\r\n";
+			} else {
+				$error = $userid->get_error_message();
+				$log .= "Error adding user " . $userdata['user_login'] . ": " . $error . "\r\n";		
+			}
 		}
-	} 
-
-/* update when user already exists
-else {
-		$user['ID'] = $userid;
-		$user['pass'] = wp_hash_password ($newuser['pass']);
-		$userid = wp_update_user ($newuser);
-		return 'updated';
-	} */
+	}
+	return $log;
+	
 }
 
-function dd_set_defaults () {
-	dd_add_users ($dd_wp_users);
-
-}
-register_activation_hook (__FILE__, 'dd_set_defaults');
-
+/*
 function dd_show_users_admin_notice() { 
 	global $pagenow;
 	if ( $pagenow == 'plugins.php' ) { 
@@ -93,12 +113,6 @@ function dd_remove_ignore_notices () {
 }
 
 register_deactivation_hook (__FILE__, 'dd_remove_ignore_notices');
-
-
-
-
-
-
-
+*/
 
 
