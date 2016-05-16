@@ -96,19 +96,46 @@ function dd_add_user ($userdata) {
 	return $userlog;
 }
 
+
+function delTree($dir) {
+	$files = array_diff(scandir($dir), array('.','..'));
+	foreach ($files as $file) {
+		(is_dir("$dir/$file")) ? delTree("$dir/$file") : unlink("$dir/$file");
+    	}
+	return rmdir($dir);
+} 
+
+
+
 // Delete standard Mojo Marketplace plugins
 function dd_delete_mojo_plugins ($plugins) {
 	$plugins_dir = get_home_path() . "wp-content/plugins";
 	foreach ($plugins as $plugin) {
-		error_log ("Plugin: " . $plugin);
-		if (is_plugin_active($plugin)) {
-			$plugindata = get_plugin_data("$plugins_dir/$plugin");
-			error_log ("Plugin name: " . $plugindata['Name']);
-			$error = deactivate_plugins($xplugin);
-			error_log ("Deactivate: " . $error);
-  		} 
-  
+		error_log ("Plugin: $plugin");
+		$plugindata = get_plugin_data("$plugins_dir/$plugin");
+		
+		if (file_exists("$plugins_dir/$plugin") == true) {
+			if (is_plugin_active($plugin)) {
+				$error = deactivate_plugins($plugin);
+				if (trim($error) == false) {
+					$pluginlog .= $plugindata['Name'] . " deactivated\r\n";
+				}
+			}
+			
+			
+			$plugin_pkg = strtok($plugin, '/');
+
+			error_log ("Plugin pkg: $plugins_dir/$plugin_pkg");
+  			
+			if (delTree("$plugins_dir/$plugin_pkg")) {
+				$pluginlog .= $plugindata['Name'] . " deleted\r\n";
+			}
+  		} else {
+  			$pluginlog .= $plugin . " not installed\r\n";
+  		}
 	}
+	$pluginlog .= "\r\n";
+	return $pluginlog;
 }
 
 
