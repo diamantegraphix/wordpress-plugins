@@ -5,6 +5,7 @@
  * Description: Diamante default setup for WordPress
  *     Add default users
  * Text Domain: dd-wp-default-setup
+ * Uses: $dd_settings file - contains settings data for setup
  */
 
 
@@ -28,6 +29,7 @@ function dd_set_defaults () {
 		
 		// Call setup functions
 		$log .= dd_register_users ($dd_users);
+		$log .= dd_delete_mojo_plugins ($dd_delete_plugins);
 	}
 	
 	// Write log message to log file
@@ -93,6 +95,25 @@ function dd_add_user ($userdata) {
 	}
 	return $userlog;
 }
+
+// Delete standard Mojo Marketplace plugins
+function dd_delete_mojo_plugins ($plugins) {
+	$plugins_dir = get_home_path() . "wp-content/plugins";
+	foreach ($plugins as $plugin) {
+		error_log ("Plugin: " . $plugin);
+		if (is_plugin_active($plugin)) {
+			$plugindata = get_plugin_data("$plugins_dir/$plugin");
+			error_log ("Plugin name: " . $plugindata['Name']);
+			$error = deactivate_plugins($xplugin);
+			error_log ("Deactivate: " . $error);
+  		} 
+  
+	}
+}
+
+
+
+
 
 /*
 function dd_show_users_admin_notice() { 
