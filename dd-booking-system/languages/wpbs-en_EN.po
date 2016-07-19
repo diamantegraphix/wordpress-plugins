@@ -1,0 +1,1062 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wpbs\n"
+"POT-Creation-Date: 2015-12-09 12:20+0200\n"
+"PO-Revision-Date: 2015-12-09 12:20+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: D:/wpbs/wp-content/plugins/wp-booking-system\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_;_e\n"
+"X-Poedit-SearchPath-0: D:/wpbs/wp-content/plugins/wp-booking-system\n"
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/controllers/calendar/calendar-save.php:59
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/settings/settings.php:178
+msgid "Booking status updated"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/bookingCore.php:6
+msgid "Pending"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/bookingCore.php:7
+msgid "Accepted"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/bookingCore.php:8
+msgid "Trash"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/bookingCore.php:58
+msgid "No bookings were made yet."
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/bookingCore.php:78
+msgid "Check In:"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/bookingCore.php:78
+msgid "Check Out:"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/bookingCore.php:104
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/bookingCore.php:127
+msgid "Are you sure you want to delete this booking?"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/bookingCore.php:111
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/bookingCore.php:135
+msgid "Are you sure you want to permanently delete this booking?"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/bookingCore.php:114
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/bookingCore.php:138
+msgid "Invalid Status"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/bookingCore.php:126
+msgid "Accept"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/bookingCore.php:127
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/bookingCore.php:132
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/bookingCore.php:135
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/formCore.php:164
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/calendars.php:41
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-legend.php:41
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/default-legend/edit-legend.php:36
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/forms.php:33
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/ical/ical.php:33
+msgid "Delete"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/bookingCore.php:131
+#: D:/wpbs/wp-content/plugins/wp-booking-system/wp-booking-system.php:122
+msgid "Edit Availability"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/bookingCore.php:151
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:273
+msgid "Cancel"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/bookingCore.php:152
+#: D:/wpbs/wp-content/plugins/wp-booking-system/wp-booking-system.php:123
+msgid "Accept Booking"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/bookingCore.php:154
+msgid "Accept Booking - Edit Availability"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/calendarAdmin.php:55
+msgid "Bulk Edit Dates"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/calendarAdmin.php:67
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/calendarAdmin.php:237
+msgid "Apply Changes"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/calendarAdmin.php:72
+msgid "Messages"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/calendarAdmin.php:75
+msgid "Don't send confirmation message"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/calendarAdmin.php:76
+msgid "Send confirmation message"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/calendarAdmin.php:82
+msgid "Additional message (optional)..."
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/calendarAdmin.php:83
+msgid "the email will be sent to"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/calendarAdmin.php:85
+msgid ""
+"There is no email address field in the form or the email address was not "
+"entered."
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/calendarAdmin.php:146
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-legend-item.php:4
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-legend.php:4
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/default-legend/edit-legend-item.php:4
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/default-legend/edit-legend.php:4
+msgid "Edit Legend"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/calendarAdmin.php:164
+msgid "Assign users to this calendar"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/calendarAdmin.php:165
+msgid "Select users"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/calendarAdmin.php:182
+msgid "Start time must be lower than end time"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/calendarAdmin.php:184
+msgid "Start Date:"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/calendarAdmin.php:203
+msgid "End Date:"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/calendarAdmin.php:222
+msgid "Booking Details"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/calendarAdmin.php:228
+msgid "Status:"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/calendarCore.php:190
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/calendarCore.php:271
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/calendarCore.php:318
+msgid "Week"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/formAjax.php:52
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/formCore.php:145
+msgid "WP Booking System: Invalid form ID."
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/formCore.php:78
+msgid "Error: Invalid Field Type"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/formCore.php:110
+#, php-format
+msgid "Please select a minimum of %x days"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/formCore.php:163
+msgid "Move"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/formCore.php:176
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-legend.php:21
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/default-legend/edit-legend.php:16
+msgid "Title"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/formCore.php:177
+msgid "Type"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/formCore.php:178
+msgid "Text"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/formCore.php:179
+msgid "Email"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/formCore.php:180
+msgid "Textarea"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/formCore.php:181
+msgid "Checkboxes"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/formCore.php:182
+msgid "Radio Buttons"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/formCore.php:183
+msgid "Dropdown"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/formCore.php:184
+msgid "HTML"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/formCore.php:187
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-legend.php:22
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/default-legend/edit-legend.php:17
+msgid "Options"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/formCore.php:187
+msgid "Separate values with an | (eg. Option 1|Option 2|Option 3)"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/formCore.php:199
+msgid "Content"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/formCore.php:200
+msgid "Required"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/formCore.php:211
+msgid "Add New Field"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcode.php:64
+msgid "WP Booking System: Invalid calendar ID."
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:14
+msgid "Add Gravity Form"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:14
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:31
+msgid "Add Calendar"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:82
+msgid "Calendar Options"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:87
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginWidget.php:95
+msgid "Calendar"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:98
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginWidget.php:105
+msgid "Display title?"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:100
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:108
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:190
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:206
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:214
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginWidget.php:107
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginWidget.php:114
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginWidget.php:154
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginWidget.php:185
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginWidget.php:195
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/edit-form.php:119
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/edit-form.php:166
+msgid "Yes"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:101
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:109
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:189
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:207
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:215
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginWidget.php:108
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginWidget.php:115
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginWidget.php:153
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginWidget.php:184
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginWidget.php:194
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/edit-form.php:120
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/edit-form.php:165
+msgid "No"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:106
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginWidget.php:112
+msgid "Display legend?"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:115
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginWidget.php:119
+msgid "Week starts on"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:117
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginWidget.php:122
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/settings/settings.php:79
+msgid "Monday"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:118
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginWidget.php:123
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/settings/settings.php:80
+msgid "Tuesday"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:119
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginWidget.php:124
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/settings/settings.php:81
+msgid "Wednesday"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:120
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginWidget.php:125
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/settings/settings.php:82
+msgid "Thursday"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:121
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginWidget.php:126
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/settings/settings.php:83
+msgid "Friday"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:122
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginWidget.php:127
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/settings/settings.php:84
+msgid "Saturday"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:123
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginWidget.php:128
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/settings/settings.php:85
+msgid "Sunday"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:129
+msgid "Months to display?"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:138
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginWidget.php:140
+msgid "Language"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:140
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginWidget.php:142
+msgid "Auto (let WP choose)"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:149
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginWidget.php:162
+msgid "Show history?"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:151
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginWidget.php:164
+msgid "Display booking history"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:152
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginWidget.php:165
+msgid "Replace booking history with the default legend item"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:153
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginWidget.php:166
+msgid "Use the Booking History Color from the Settings"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:158
+msgid "Start Month"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:160
+msgid "Current Month"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:161
+msgid "January"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:162
+msgid "February"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:163
+msgid "March"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:164
+msgid "April"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:165
+msgid "May"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:166
+msgid "June"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:167
+msgid "July"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:168
+msgid "August"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:169
+msgid "September"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:170
+msgid "October"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:171
+msgid "November"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:172
+msgid "December"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:177
+msgid "Start Year"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:179
+msgid "Current Year"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:187
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginWidget.php:151
+msgid "Show Tooltip?"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:191
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginWidget.php:155
+msgid "Yes, with red indicator"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:196
+msgid "Selection Type"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:198
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginWidget.php:174
+msgid "Multiple Dates (Range)"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:199
+msgid "Single Date"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:204
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginWidget.php:182
+msgid "Auto Pending?"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:212
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginWidget.php:192
+msgid "Show week numbers?"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:220
+msgid "Minimum Days?"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:232
+msgid "You have to create a calendar first."
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:240
+msgid "Form Options"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:245
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginWidget.php:216
+msgid "Form"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:256
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginWidget.php:226
+msgid "Form position"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:258
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginWidget.php:228
+msgid "Below the calendar"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:259
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginWidget.php:229
+msgid "To the right of the calendar"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:265
+msgid "You have to create a form first."
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginShortcodeButton.php:271
+msgid "Insert Calendar"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginWidget.php:92
+msgid "Calendar options"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginWidget.php:132
+msgid "Calendar View"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginWidget.php:172
+msgid "Selection Type?"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginWidget.php:175
+msgid "Single Dates"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginWidget.php:202
+msgid "Minimum days to book?"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginWidget.php:213
+msgid "Form options"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginWidget.php:218
+msgid "Don't display form"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/include/pluginiCal.php:64
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-calendar.php:63
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-legend-item.php:114
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-legend.php:129
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/edit-form.php:272
+msgid "Invalid calendar ID."
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/calendars.php:4
+msgid "WP Booking System"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/calendars.php:4
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-legend.php:4
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/default-legend/edit-legend.php:4
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/forms.php:4
+msgid "Add New"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/calendars.php:7
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-calendar.php:15
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-legend-item.php:7
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-legend.php:7
+msgid "The calendar was updated"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/calendars.php:19
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/forms.php:19
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/ical/ical.php:13
+msgid "ID"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/calendars.php:20
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/ical/ical.php:14
+msgid "Calendar Title"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/calendars.php:21
+msgid "Date Created"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/calendars.php:22
+msgid "Date Modified"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/calendars.php:23
+msgid "Unread Bookings"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/calendars.php:24
+msgid "Total Bookings"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/calendars.php:40
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-legend.php:39
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/default-legend/edit-legend.php:34
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/forms.php:32
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/ical/ical.php:32
+msgid "Edit this item"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/calendars.php:40
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-legend.php:39
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/default-legend/edit-legend.php:34
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/forms.php:32
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/ical/ical.php:32
+msgid "Edit"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/calendars.php:41
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/ical/ical.php:33
+msgid "Are you sure you want to delete this calendar?"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/calendars.php:46
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/calendars.php:49
+msgid "booking"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/calendars.php:46
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/calendars.php:49
+msgid "bookings"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/calendars.php:55
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/ical/ical.php:43
+msgid "No calendars found."
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/calendars.php:55
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/ical/ical.php:43
+msgid "Click here to create your first calendar."
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-calendar.php:12
+msgid "Edit Calendar"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-calendar.php:28
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-calendar.php:59
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-legend-item.php:22
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-legend-item.php:67
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/default-legend/edit-legend-item.php:20
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/default-legend/edit-legend-item.php:65
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/edit-form.php:18
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/edit-form.php:268
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/settings/settings.php:16
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/settings/settings.php:208
+msgid "Save Changes"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-calendar.php:29
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-legend-item.php:23
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-legend.php:16
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/default-legend/edit-legend-item.php:21
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/edit-form.php:19
+msgid "Back"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-calendar.php:31
+msgid "Calendar title"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-calendar.php:35
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-calendar.php:45
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-legend-item.php:27
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/default-legend/edit-legend-item.php:25
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/edit-form.php:34
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/edit-form.php:110
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/edit-form.php:155
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/edit-form.php:241
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/settings/settings.php:20
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/settings/settings.php:96
+msgid "Click to toggle"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-calendar.php:36
+msgid "Bookings"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-calendar.php:46
+msgid "Availability"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-legend-item.php:20
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/default-legend/edit-legend-item.php:18
+msgid "Legend title"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-legend-item.php:28
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/default-legend/edit-legend-item.php:26
+msgid "Legend Item"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-legend-item.php:32
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/default-legend/edit-legend-item.php:30
+msgid "Color:"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-legend-item.php:35
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/default-legend/edit-legend-item.php:33
+msgid "Split Color"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-legend-item.php:46
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/default-legend/edit-legend-item.php:44
+msgid "Can be booked"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-legend-item.php:53
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/default-legend/edit-legend-item.php:51
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/edit-form.php:35
+msgid "Translations"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-legend.php:23
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/default-legend/edit-legend.php:18
+msgid "Color"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-legend.php:24
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/default-legend/edit-legend.php:19
+msgid "Default"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-legend.php:25
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/default-legend/edit-legend.php:20
+msgid "Auto-Pending"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-legend.php:26
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/default-legend/edit-legend.php:21
+msgid "Visible"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-legend.php:27
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/default-legend/edit-legend.php:22
+msgid "Ordering"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-legend.php:28
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/default-legend/edit-legend.php:23
+msgid "Sync as booked"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-legend.php:41
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/default-legend/edit-legend.php:36
+msgid "Are you sure you want to delete this legend item?"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-legend.php:41
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/default-legend/edit-legend.php:36
+msgid "Move this item to the Trash"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-legend.php:47
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/default-legend/edit-legend.php:42
+msgid "Make Default Legend"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-legend.php:49
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/default-legend/edit-legend.php:44
+#: D:/wpbs/wp-content/plugins/wp-booking-system/wp-booking-system.php:85
+msgid "Default Legend"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-legend.php:53
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/default-legend/edit-legend.php:48
+msgid "Auto-Pending Default"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-legend.php:55
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/default-legend/edit-legend.php:50
+msgid "Make Auto-Pending Default"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-legend.php:59
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/default-legend/edit-legend.php:54
+msgid "Hidden, click to show"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-legend.php:61
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/default-legend/edit-legend.php:56
+msgid "Visible, click to hide"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-legend.php:65
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/default-legend/edit-legend.php:60
+msgid "Move Up"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-legend.php:69
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/default-legend/edit-legend.php:64
+msgid "Move Down"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-legend.php:72
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/default-legend/edit-legend.php:67
+msgid "Syncing, click to remove sync"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/calendar/edit-legend.php:74
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/default-legend/edit-legend.php:69
+msgid "Not Syncing, click to sync"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/default-legend/edit-legend-item.php:7
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/default-legend/edit-legend.php:7
+msgid "The legend was updated"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/edit-form.php:4
+msgid "Edit Form"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/edit-form.php:7
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/forms.php:7
+msgid "The form was updated"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/edit-form.php:21
+msgid "Form title"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/edit-form.php:37
+msgid "Submit Button"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/edit-form.php:40
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/edit-form.php:62
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/edit-form.php:84
+msgid "Default Label"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/edit-form.php:59
+msgid "Thank you message"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/edit-form.php:81
+msgid "Select Date message"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/edit-form.php:111
+msgid "Form Settings"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/edit-form.php:115
+msgid "Receive messages by mail"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/edit-form.php:128
+msgid "Send to:"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/edit-form.php:132
+msgid "Separate multiple e-mail addresses with a comma"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/edit-form.php:139
+msgid "Tracking Script"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/edit-form.php:156
+msgid "Auto Reply"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/edit-form.php:161
+msgid "Enable Auto-Reply"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/edit-form.php:176
+msgid "Email Subject"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/edit-form.php:179
+msgid "Default Subject"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/edit-form.php:198
+msgid "Email Body"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/edit-form.php:202
+msgid "Default Body"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/edit-form.php:222
+msgid "Include details of the submitted booking"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/edit-form.php:230
+msgid ""
+"To enable auto reply you must add an email field to the form. If more than "
+"one email field exists, the first one will be used."
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/edit-form.php:242
+msgid "Email Settings"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/edit-form.php:246
+msgid "Sender Name"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/edit-form.php:257
+msgid "Sender Email"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/forms.php:4
+#: D:/wpbs/wp-content/plugins/wp-booking-system/wp-booking-system.php:86
+msgid "Forms"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/forms.php:20
+msgid "Form Title"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/forms.php:33
+msgid "Are you sure you want to delete this form?"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/forms.php:42
+msgid "No forms found."
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/form/forms.php:42
+msgid "Click here to create your first form."
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/ical/ical.php:4
+#: D:/wpbs/wp-content/plugins/wp-booking-system/wp-booking-system.php:87
+msgid "Sync"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/ical/ical.php:15
+msgid "iCalendar Link"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/settings/settings.php:5
+#: D:/wpbs/wp-content/plugins/wp-booking-system/wp-booking-system.php:88
+msgid "Settings"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/settings/settings.php:8
+msgid "The settings were saved."
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/settings/settings.php:21
+msgid "General Settings"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/settings/settings.php:26
+msgid "Date Format"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/settings/settings.php:39
+msgid "Selected date background"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/settings/settings.php:44
+msgid "The color that is being used for selected days on the front-end."
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/settings/settings.php:51
+msgid "Selected date border color"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/settings/settings.php:56
+msgid "The border color that is being used for selected days on the front-end."
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/settings/settings.php:62
+msgid "Booking History Color"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/settings/settings.php:67
+msgid ""
+"The color that will be used if you select 'Use Booking History Color' when "
+"you generate a shortcode."
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/settings/settings.php:74
+msgid "Backend Start Day"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/settings/settings.php:97
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/settings/settings.php:103
+msgid "Languages"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/settings/settings.php:104
+msgid "What languages do you"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/settings/settings.php:104
+msgid "want to use?"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/settings/settings.php:121
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/settings/settings.php:122
+msgid "General Translations"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/settings/settings.php:126
+msgid "Booking ID"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/settings/settings.php:139
+msgid "Your Booking Details"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/settings/settings.php:152
+msgid "Check-In"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/settings/settings.php:165
+msgid "Check-Out"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/views/settings/settings.php:191
+#, php-format
+msgid "Select a minimum of %x days"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/wp-booking-system.php:84
+msgid "Calendars"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/wp-booking-system.php:124
+msgid "Edit Booking"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/wp-booking-system.php:125
+msgid "Delete Booking"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/wp-booking-system.php:156
+msgid "New Booking"
+msgstr ""
+
+#: D:/wpbs/wp-content/plugins/wp-booking-system/wp-booking-system.php:158
+msgid "New Bookings"
+msgstr ""
