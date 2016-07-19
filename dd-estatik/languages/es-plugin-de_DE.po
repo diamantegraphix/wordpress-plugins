@@ -1,0 +1,707 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Estatik\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-04-09 18:14+0500\n"
+"PO-Revision-Date: Wed Mar 30 2016 13:11:42 GMT+0300\n"
+"Last-Translator: Torsten Landsiedel <torsten.landsiedel@gmx.de>\n"
+"Language-Team: Torsten Landsiedel <mail@torstenlandsiedel.de>\n"
+"Language: Torsten Landsiedel\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Loco-Source-Locale: ru_RU\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Loco-Parser: loco_parse_po\n"
+"X-Loco-Target-Locale: de_DE\n"
+"X-Poedit-SearchPath-0: estatik"
+
+msgid "2 colums"
+msgstr "2 Spalten"
+
+msgid "Add New"
+msgstr "Neu hinzufügen"
+
+msgid "Add New Property"
+msgstr "Immobilie hinzufügen"
+
+msgid "Add New Property Category"
+msgstr "Neue Immobilien Kategorie erstellen"
+
+msgid "Add New Status Category"
+msgstr "Neue Status Kategorie erstellen"
+
+msgid "Add New Type Category"
+msgstr "Neue Typ Kategorie erstellen"
+
+msgid "Add new field"
+msgstr "Neues Feld hinzufügen"
+
+msgid "Address"
+msgstr "Adresse"
+
+msgid "Address, City, ZIP"
+msgstr "Adresse, Stadt, PLZ"
+
+msgid "Address:"
+msgstr "Adresse:"
+
+msgid "After price"
+msgstr "Nach dem Preis"
+
+msgid "All Properties"
+msgstr "Alle Immobilien"
+
+msgid "All Property Categories"
+msgstr "Alle Immobilien Kategorien"
+
+msgid "All Status Categories"
+msgstr "Alle Status-Kategorien"
+
+msgid "All Types Categories"
+msgstr "Alle Typen Kategorien"
+
+msgid "Amenities"
+msgstr "Ausstattung"
+
+msgid "Appliances"
+msgstr "Ausstattung"
+
+msgid "Archive Page"
+msgstr "Archiv Seite"
+
+msgid "Are you sure you want to Copy it?"
+msgstr "Sind Sie sicher, Sie wollen, um es zu kopieren?"
+
+msgid "Are you sure you want to delete it?"
+msgstr "Sind Sie sicher, dass Sie löschen möchten?"
+
+msgid "Are you sure you want to publish it?"
+msgstr "Sind Sie sicher, Sie wollen, um es zu veröffentlichen?"
+
+msgid "Are you sure you want to unpublish it?"
+msgstr "Sind Sie sicher, Sie wollen, um es zu unveröffentlichen?"
+
+msgid "Area"
+msgstr "Wohnfläche"
+
+msgid "Area & lot size"
+msgstr "Wohn- und Grundstücksfläche"
+
+msgid "Area size"
+msgstr "Grundstücksfläche"
+
+msgid "Author Page"
+msgstr "Autorenseite"
+
+msgid "Badezimmer"
+msgstr "Badezimmer"
+
+msgid "Basic facts"
+msgstr "Basisdaten"
+
+msgid "Basic information"
+msgstr "Basis-Informationen"
+
+msgid "Bathrooms"
+msgstr "Badezimmer"
+
+msgid "bath"
+msgid_plural "baths"
+msgstr[0] "Badezimmer"
+msgstr[1] "Badezimmer"
+
+msgid "Bedrooms"
+msgstr "Schlafzimmer"
+
+msgid "Bedrooms:"
+msgstr "Schlafzimmer:"
+
+msgid "Before price"
+msgstr "Vor dem Preis"
+
+msgid "Built in"
+msgstr "Baujahr"
+
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgid "Category"
+msgstr "Kategorie"
+
+msgid "Category Page"
+msgstr "Kategorie Seite"
+
+msgid "Category:"
+msgstr "Kategorie:"
+
+msgid "Choose Country"
+msgstr "Land auswählen"
+
+msgid "Choose Your Theme"
+msgstr "Wähle dein Theme"
+
+msgid "Cities"
+msgstr "Städte"
+
+msgid "City"
+msgstr "Stadt"
+
+msgid "Copy"
+msgstr "Kopieren"
+
+msgid "Country"
+msgstr "Land"
+
+msgid "Crop"
+msgstr "Zuschneiden "
+
+msgid "Crop & shrink"
+msgstr "Zuschneiden & schrumpfen"
+
+msgid "Currency"
+msgstr "Währung"
+
+msgid "Currency sign place"
+msgstr "Währungsanzeige"
+
+msgid "Dashboard"
+msgstr "Übersicht"
+
+msgid "Data Manager"
+msgstr "Daten-Verwaltung"
+
+msgid "Date Format"
+msgstr "Datumsformat"
+
+msgid "Date added"
+msgstr "Datum des Eintrags"
+
+msgid "Date format"
+msgstr "Datumsformat"
+
+msgid "Default currency"
+msgstr "Standardwährung"
+
+msgid "Delete"
+msgstr "Löschen"
+
+msgid "Description"
+msgstr "Beschreibung"
+
+msgid "Details"
+msgstr "Details"
+
+msgid "Dimensions"
+msgstr "Abmessungen"
+
+msgid "Disabled Layouts are available in"
+msgstr "Deaktivierte Layouts sind erhältlich in der"
+
+msgid "Disabled fields are available in"
+msgstr "Deaktivierte Felder sind erhältlich in der"
+
+msgid "Dollar, Euro, etc"
+msgstr "Dollar, Euro, etc"
+
+msgid "Edit"
+msgstr "Bearbeiten"
+
+msgid "Edit Property"
+msgstr "Immobilie bearbeiten"
+
+msgid "Edit Property Category"
+msgstr "Bearbeiten Immobilien Kategorien"
+
+msgid "Edit Status Category"
+msgstr "Bearbeiten Status Kategorie"
+
+msgid "Edit Type Category"
+msgstr "Bearbeiten Typ Kategorie"
+
+msgid "Estatik Pro"
+msgstr "Estatik Pro"
+
+msgid "Estatik Search"
+msgstr "Estatik-Suche"
+
+msgid "Featured"
+msgstr "Empfohlen"
+
+msgid "Features"
+msgstr "Funktionen"
+
+msgid "Filter by"
+msgstr "Filtern nach"
+
+msgid "Floors"
+msgstr "Stockwerke"
+
+msgid "Foreclosure"
+msgstr "Zwangsvollstreckung"
+
+msgid ""
+"Full advanced version with extra portal management option, social sharing, "
+"additional widgets support, etc."
+msgstr ""
+"Volle erweiterte Version mit extra Portal-Management-Option, Social Sharing, "
+"zusätzliche Widgets Unterstützung, etc."
+
+msgid "General Settings"
+msgstr "Allgemeine Einstellungen"
+
+msgid "Get Support"
+msgstr "Stelle eine Frage"
+
+msgid "Height"
+msgstr "Höhe"
+
+msgid "Hot"
+msgstr "Neu"
+
+msgid "Image"
+msgstr "Bild"
+
+msgid "Images"
+msgstr "Bilder"
+
+msgid "Key words"
+msgstr "Schlüsselwörter"
+
+msgid "Keywords:"
+msgstr "Schlüsselwörter:"
+
+msgid "Latitude"
+msgstr "Breitengrad"
+
+msgid "Layout"
+msgstr "Layout"
+
+msgid "Listings layout"
+msgstr "Listen-Layout"
+
+msgid "Listings view"
+msgstr "Immobilien Layout"
+
+msgid "Location"
+msgstr "Ort"
+
+msgid "Longitude"
+msgstr "Längengrad"
+
+msgid "Lot size"
+msgstr "Grundstücksfläche"
+
+msgid "Lot size:"
+msgstr "Grundstücksgröße:"
+
+msgid "Manage"
+msgstr "Verwalten"
+
+msgid "Map"
+msgstr "Karte"
+
+msgid "Media"
+msgstr "Medien"
+
+msgid "Menu is empty."
+msgstr "Menü ist leer."
+
+msgid "My Listings"
+msgstr "Meine Listen"
+
+msgid "My listings"
+msgstr "Meine Listen"
+
+msgid "NO"
+msgstr "Nein"
+
+msgid "New Property"
+msgstr "Neue Immobilie"
+
+msgid "New Property Category"
+msgstr "Neue Immobilien Kategorie"
+
+msgid "New Status Category"
+msgstr "Neue Status Kategorie"
+
+msgid "New Type Category"
+msgstr "Neue Typ Kategorie"
+
+msgid "No"
+msgstr "Nein"
+
+msgid "No City"
+msgstr "Keine Stadt"
+
+msgid "No Image"
+msgstr "Kein Bild"
+
+msgid "No Properties found"
+msgstr "Keine Immobilie gefunden"
+
+msgid "No Properties found in the Trash"
+msgstr "Keine Immobilien im Papierkorb gefunden"
+
+msgid "No State"
+msgstr "Kein Bundesland"
+
+msgid "No record found."
+msgstr "Kein Eintrag gefunden."
+
+msgid "No record found. Please add new one."
+msgstr "Kein Eintrag gefunden. Bitte fügen Sie neue."
+
+msgid "No record found. please add new one."
+msgstr "Kein Eintrag gefunden. Bitte fügen Sie neue."
+
+msgid "Number of listings per page"
+msgstr "Anzahl der Listen pro Seite"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Ok"
+msgstr "OK"
+
+msgid "Open house"
+msgstr "Offenes Haus"
+
+msgid "PDF flayer"
+msgstr "PDF"
+
+msgid "Parent Property Category"
+msgstr "Parent-Immobilien Kategorie"
+
+msgid "Parent Property Category:"
+msgstr "Parent-Immobilien Kategorie"
+
+msgid "Parent Status Category"
+msgstr "Parent-Status Kategorie"
+
+msgid "Parent Status Category:"
+msgstr "Parent-Status Kategorie"
+
+msgid "Parent Type Category"
+msgstr "Parent-Typ Kategorie"
+
+msgid "Parent Type Category:"
+msgstr "Parent-Typ Kategorie"
+
+msgid "Period"
+msgstr "Zeitraum"
+
+msgid "Photo <br /> Thumb"
+msgstr "Foto-<br />Miniatur"
+
+msgid "Photo <br />in center"
+msgstr "Foto<br />zentriert"
+
+msgid "Photo on<br />the left/right"
+msgstr "Foto<br />links/rechts"
+
+msgid "Please Edit your property detail and click save to finish."
+msgstr ""
+"Bitte bearbeiten Sie Ihre Immobiliendetails und klicken Sie dann auf "
+"Speichern."
+
+msgid "Please enter numbers only."
+msgstr "Bitte geben Sie nur Zahlen ein."
+
+msgid "Please fill up your Settings detail and click save to finish."
+msgstr ""
+"Bitte füllen Sie Ihre Einstellungen detaillierter und klicken Sie auf "
+"Speichern, um zu beenden."
+
+msgid "Please fill up your property detail and click save to finish."
+msgstr ""
+"Bitte füllen Sie Ihre Immobilien Detail und klicken Sie auf Speichern, um zu "
+"beenden."
+
+msgid "Please fill your field."
+msgstr "Bitte füllen Sie Ihrem Feld."
+
+msgid "Please select properties you want to copy."
+msgstr "Bitte wählen Sie Immobilien, die Sie kopieren möchten."
+
+msgid "Please select properties you want to delete."
+msgstr "Bitte wählen Sie Immobilien, die Sie löschen möchten."
+
+msgid "Please select properties you want to publish."
+msgstr "Bitte wählen Sie Immobilien, die Sie veröffentlichen möchten."
+
+msgid "Please select properties you want to unpublish."
+msgstr "Bitte wählen Sie Immobilien, die Sie unveröffentlichen möchten."
+
+msgid "Please upload your"
+msgstr "Bitte hochladen "
+
+msgid "Powered by"
+msgstr "Bereitgestellt von"
+
+msgid "Powered by link"
+msgstr "„Powered by“-Link"
+
+msgid "Price"
+msgstr "Preis"
+
+msgid "Price format"
+msgstr "Preis-Format"
+
+msgid "Price:"
+msgstr "Preis:"
+
+msgid "Properties"
+msgstr "Immobilien"
+
+msgid "Properties by Agent"
+msgstr "Immobilien von Agent"
+
+msgid "Properties details"
+msgstr "Immobiliendetails"
+
+msgid "Property Categories"
+msgstr "Immobilien-Kategorien"
+
+msgid "Property Category"
+msgstr "Immobilien-Kategorie"
+
+msgid "Property ID"
+msgstr "Immobilien-ID"
+
+msgid "Property Status"
+msgstr "Immobilien-Status"
+
+msgid "Property Types"
+msgstr "Immobilientyp"
+
+msgid "Property has been deleted."
+msgstr "Immobilie wurde gelöscht."
+
+msgid "Property has been updated."
+msgstr "Immobilie wurde aktualisiert."
+
+msgid "Publish"
+msgstr "Veröffentlichen"
+
+msgid "Rent Period"
+msgstr "Miete-Dauer"
+
+msgid "Rent period"
+msgstr "Mieten Periode"
+
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+msgid "Resize method"
+msgstr "Ändern Sie die Größe"
+
+msgid "Save"
+msgstr "Speichern"
+
+msgid "Save & Close"
+msgstr "Speichern & Schließen"
+
+msgid "Search"
+msgstr "Suchen"
+
+msgid "Search Page"
+msgstr "Suchseite"
+
+msgid "Search Properties"
+msgstr "Immobilie suchen"
+
+msgid "Search Property Categories"
+msgstr "Suchen Immobilien Kategorien"
+
+msgid "Search Status Categories"
+msgstr "Suche nach Status-Kategorien"
+
+msgid "Search Title:"
+msgstr "Suche Titel:"
+
+msgid "Search Types Categories"
+msgstr "Suche nach Typen Kategorien"
+
+msgid "Select Pages"
+msgstr "Seiten auswählen"
+
+msgid "Select all"
+msgstr "Alle auswählen"
+
+msgid "Select files or upload images in a zip-file."
+msgstr "Dateien auswählen oder Bilder in einer ZIP-Datei hochladen."
+
+msgid "Selected properties have been copied."
+msgstr "Ausgewählte Immobilien kopiert wurden."
+
+msgid "Selected properties have been deleted."
+msgstr "Ausgewählte Immobilien wurden gelöscht."
+
+msgid "Selected properties have been published."
+msgstr "Ausgewählte Immobilien sind veröffentlicht worden."
+
+msgid "Selected properties have been unpublished."
+msgstr "Ausgewählte Immobilienobjekte wurden unveröffentlicht."
+
+msgid "Settings"
+msgstr "Einstellungen"
+
+msgid "Settings has been updated."
+msgstr "Einstellungen wurden aktualisiert."
+
+msgid "Sharing"
+msgstr "Teilen"
+
+msgid "Sharing Feature is available in"
+msgstr "Sharing-Funktion ist in"
+
+msgid "Show On Pages"
+msgstr "Zeigen auf den Seiten"
+
+msgid "Single Page"
+msgstr "Einzelne Seite"
+
+msgid "Single property"
+msgstr "Einzel-Immobilie"
+
+msgid "Sq ft"
+msgstr "Quadratmeter"
+
+msgid "Sqft:"
+msgstr "m2"
+
+msgid "State/Region"
+msgstr "Bundesland"
+
+msgid "States/Regions"
+msgstr "Bundesländer"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Status Categories"
+msgstr " Status Kategorien "
+
+msgid "Step-by-step guide"
+msgstr "Schritt-für-Schritt-Anleitung"
+
+msgid "Street"
+msgstr "Straße"
+
+msgid "Submit a Ticket"
+msgstr "Ticket einreichen"
+
+msgid "Table"
+msgstr "Tabelle"
+
+msgid ""
+"The first image will be default image. You can drag and drop images to "
+"change their order."
+msgstr ""
+"Das erste Bild wird das Standardbild. Sie können per Drag&Drop die "
+"Reihenfolge der Bilder ändern."
+
+msgid "Title"
+msgstr "Titel"
+
+msgid "Title/Address"
+msgstr "Titel/Adresse"
+
+msgid "To top"
+msgstr "Nach oben"
+
+msgid "Type"
+msgstr "Typ"
+
+msgid "Type Categories"
+msgstr "Typ Kategorien"
+
+msgid "Type:"
+msgstr "Typ:"
+
+msgid "Undo selection"
+msgstr "Auswahl aufheben"
+
+msgid "Unpublish"
+msgstr "Verstecken"
+
+msgid "Update Property Category"
+msgstr "Aktualisieren"
+
+msgid "Update Status Category"
+msgstr "Aktualisieren Status Kategorie "
+
+msgid "Update Type Category"
+msgstr "Aktualisieren Typ Kategorie"
+
+msgid "Upload"
+msgstr "Hochladen"
+
+msgid "Upload Downloaded Estatik Pro"
+msgstr "Hochladen Estatik Pro"
+
+msgid "Upload Zip"
+msgstr "ZIP hochladen"
+
+msgid "Video Tutorial"
+msgstr "Video-Tutorial"
+
+msgid "View Properties"
+msgstr "Immobilie ansehen"
+
+msgid "View first"
+msgstr "Sortieren nach"
+
+msgid "View on map"
+msgstr "Auf Karte ansehen"
+
+msgid "Widht"
+msgstr "Breite"
+
+msgid "Yes"
+msgstr "Ja"
+
+msgid "Your search results."
+msgstr "Deine Suchergebnisse."
+
+msgid "ZIP/Postcode"
+msgstr "PLZ (Postleitzahl)"
+
+msgid "bed"
+msgid_plural "beds"
+msgstr[0] "Zimmer"
+msgstr[1] "Zimmer"
+
+msgid "field has been added."
+msgstr "Feld wurde hinzugefügt."
+
+msgid "field has been deleted."
+msgstr "Feld wurde gelöscht."
+
+msgid "hot"
+msgstr "neu"
+
+msgid "list"
+msgstr "Liste"
+
+msgid "max"
+msgstr "max"
+
+msgid "min"
+msgstr "min"
+
+msgid "version"
+msgstr "Version"
+
+msgid "version in zip format and click upload to finish for update to pro Version."
+msgstr ""
+"Version im ZIP-Format und klicken Sie auf Hochladen, um Update auf Pro-"
+"Version zu beenden."
+
+msgid "version only"
+msgstr "nur in der PRO Version"
